@@ -2,6 +2,7 @@ Scrivere un programma che contenga un metodo che permette di inizializzare una m
 
 (1 2 3)
 (4 5 6)
+
 Matrice risultato
 
  (1 4)
