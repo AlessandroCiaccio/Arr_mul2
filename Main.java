@@ -1,7 +1,9 @@
 public class Main {
     public static void main(String[] args) {
         int[][] matrix = {{1, 2, 3}, {4, 5, 6}};
-
+        matriceTrasposta(matrix);
+    }
+    public static void matriceTrasposta(int matrix[][]){
         System.out.println("Matrice di partenza:");
         for(int i=0; i<matrix.length;i++){
             System.out.println("");
@@ -20,7 +22,7 @@ public class Main {
             }
         }
 
-        System.out.println("\nMatrice risultato:");
+        System.out.println("\n\nMatrice risultato:");
         for(int i=0; i<transposedMatrix.length;i++){
             System.out.println("");
             for (int j=0; j<transposedMatrix[i].length; j++){
